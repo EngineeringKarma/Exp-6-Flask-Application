@@ -5,8 +5,8 @@ app = Flask(__name__)
 @app.route('/')
 def display_info():
     # Display Name and AppID
-    name = "Prathamesh Bhandare"
-    app_id = "2408654"
+    name = "Rhythm Singhal"
+    app_id = "2410474"
     return f"Name: {name}<br>AppID: {app_id}"
 
 @app.route('/hobbies')
